@@ -27,7 +27,6 @@
                 <li><a href="#skills" class="navLink">Skills</a></li>
             </ul>
         </nav>
-        <div class="navDot"></div>
     </header>
     <!-- //header -->
 
@@ -35,10 +34,10 @@
     <main>
         <!-- intro -->
         <section id="intro">
-            <h2>
+            <h2 class="typing">
                 디자인을 안정적인 코드 구조로 구현하는<br>
                 Web Publisher
-            </h2>
+            </h2>b
             <p>HTML · CSS · JavaScript</p>
         </section>
         <!-- //intro -->
@@ -52,7 +51,7 @@
                 </div>
                 <div class="aboutMeRBox">
                     <h4>박재랑</h4>
-                    <p>구조적인 HTML 마크업과 유지보수를 고려한 CSS 설계를 바탕으로,
+                    <p class="typing">구조적인 HTML 마크업과 유지보수를 고려한 CSS 설계를 바탕으로,
                         안정적인 UI 구현을 지향하는 웹 퍼블리셔입니다.</p>
                     <ul class="aboutList">
                         <li>
@@ -76,14 +75,18 @@
                         </li>
                         <li>
                             <h5 class="label">Study</h5>
-                            <div class="StudyWrap">
-                                <p class="data">
+                            <div class="StudyWrap data">
+                                <p>
                                     <a href="https://www.notion.so/html5-css3-jquery-javascript-2d0f2846a357800298f4c16b98cdeda8?source=copy_link"
                                         target="_blank" rel="noopener noreferrer" class="notion">Notion</a>
                                 </p>
-                                <p class="data">
+                                <p>
                                     <a href="https://github.com/parkjaerang" target="_blank" rel="noopener noreferrer"
                                         class="github">Github</a>
+                                </p>
+                                <p>
+                                    <a href="https://blog.naver.com/xang_xae" target="_blank" rel="noopener noreferrer"
+                                        class="blog">blog</a>
                                 </p>
                             </div>
                         </li>
@@ -99,53 +102,63 @@
             <div class="articleWrap">
                 <article class="newSource">
                     <a href="https://parkjaerang.github.io/New-Sorce-Clone-Coding/" target="_blank"
-                        rel="noopener noreferrer">
+                        rel="noopener noreferrer" class="imgBox">
                         <img src="./img/newSourceimg.png" alt="newsourcemag 클론 코딩 사이트 메인 화면 썸네일">
+                        <div class="overlay">View Project</div>
                     </a>
-                    <h5>newsourcemag 클론 코딩</h5>
-                    <p>HTML / CSS / JS / 반응형</p>
-                    <p class="contribution">작업 기여도: 퍼블리싱 100%</p>
-                    <p class="implementation">구현 포인트</p>
-                    <ul>
-                        <li>레이아웃 구조</li>
-                        <li>반응형 설계</li>
-                        <li>스크롤 인터랙션</li>
-                    </ul>
-                    <p>
-                        반응형 설계와 시멘틱 마크업 역량 강화를 목표로
-                        디자인 구조가 명확한 사이트를 클론 코딩했습니다.
-                    </p>
-
+                    <div class="textBox">
+                        <h5>newsourcemag 클론 코딩</h5>
+                        <p>HTML / CSS / JS / 반응형</p>
+                        <p class="contribution">작업 기여도: 퍼블리싱 100%</p>
+                        <p class="implementation">구현 포인트</p>
+                        <ul>
+                            <li>레이아웃 구조</li>
+                            <li>반응형 설계</li>
+                            <li>스크롤 인터랙션</li>
+                        </ul>
+                        <p>
+                            반응형 설계와 시멘틱 마크업 역량 강화를 목표로
+                            디자인 구조가 명확한 사이트를 클론 코딩했습니다.
+                        </p>
+                    </div>
                 </article>
                 <article class="designsamsung">
-                    <a href="https://dsamsungclone.dothome.co.kr" target="_blank" rel="noopener noreferrer">
+                    <a href="https://dsamsungclone.dothome.co.kr" target="_blank" rel="noopener noreferrer"
+                        class="imgBox">
                         <img src="./img/designsamsung.png" alt="designsamsung 클론 코딩 사이트 메인 화면 썸네일">
+                        <div class="overlay">View Project</div>
                     </a>
-                    <h5>designsamsung 클론 코딩</h5>
-                    <p>HTML / CSS / JS / 반응형</p>
-                    <p class="contribution">작업 기여도: 퍼블리싱 100%</p>
-                    <p class="implementation">구현 포인트</p>
-                    <ul>
-                        <li>롤링 배너</li>
-                        <li>햄버거 메뉴</li>
-                        <li>스크롤 인터랙션</li>
-                    </ul>
-                    <p>
-                        롤링 배너 등 JavaScript 인터랙션을 통해
-                        동적 UI 로직을 연습하기 위해 클론 코딩했습니다.
-                    </p>
+                    <div class="textBox">
+                        <h5>designsamsung 클론 코딩 (미완)</h5>
+                        <p>HTML / CSS / JS / 반응형</p>
+                        <p class="contribution">작업 기여도: 퍼블리싱 100%</p>
+                        <p class="implementation">구현 포인트</p>
+                        <ul>
+                            <li>롤링 배너</li>
+                            <li>햄버거 메뉴</li>
+                            <li>스크롤 인터랙션</li>
+                        </ul>
+                        <p>
+                            롤링 배너 등 JavaScript 인터랙션을 통해
+                            동적 UI 로직을 연습하기 위해 클론 코딩했습니다.
+                        </p>
+                    </div>
                 </article>
                 <article class="projectCollab">
-                    <img src="./img/Graduation_Project.png" alt="Graduation Project 썸네일">
-                    <h5>프로젝트 협업 경험</h5>
-                    <p>AI학부 졸업 작품 - 앱 제작 프로젝트 (프론트엔드 담당)</p><br>
-                    <a href="./Graduation_Project/Graduation_Project.pptx" download target="_blank"
-                        rel="noopener noreferrer">PPT 다운로드 <i class="fa-solid fa-download"></i></a>
-                    <p>
-                        팀 프로젝트 진행 중 참여 부족 문제를 해결하기 위해 역할을 명확히 분배하고<br>
-                        일정 및 진행 상황 관리 체계를 도입했습니다.<br><br>
-                        이를 통해 팀원들의 책임감을 높이고 협업 과정에서의 문제 해결 능력과 커뮤니케이션 역량을 강화했습니다.
-                    </p>
+                    <a href="./Graduation_Project/Graduation_Project.pptx" target="_blank" rel="noopener noreferrer"
+                        class="imgBox">
+                        <img src="./img/Graduation_Project.png" alt="Graduation Project 썸네일">
+                        <div class="overlay">PPT 다운로드 <i class="fa-solid fa-download"></i></div>
+                    </a>
+                    <div class="textBox">
+                        <h5>프로젝트 협업 경험</h5>
+                        <p>AI학부 졸업 작품 - 앱 제작 프로젝트 (프론트엔드 담당)</p><br>
+                        <p>
+                            팀 프로젝트 진행 중 참여 부족 문제를 해결하기 위해 역할을 명확히 분배하고<br>
+                            일정 및 진행 상황 관리 체계를 도입했습니다.<br><br>
+                            이를 통해 팀원들의 책임감을 높이고 협업 과정에서의 문제 해결 능력과 커뮤니케이션 역량을 강화했습니다.
+                        </p>
+                    </div>
                 </article>
             </div>
         </section>
@@ -154,16 +167,52 @@
         <!-- skills -->
         <section id="skills">
             <h3>Skills</h3>
+
             <ul class="skillList">
-                <li class="hTML">HTML</li>
-                <li class="css">CSS</li>
-                <li class="javaScript">JavaScript</li>
-                <li class="jQuery">jQuery</li>
-                <li class="responsive">반응형 웹</li>
-                <li class="accessibility">웹 접근성</li>
-                <li class="standard">웹 표준</li>
-                <li class="photoshop">Adobe<br>Photoshop</li>
-                <li class="illustrator">Adobe<br>Illustrator</li>
+                <li class="skillWrap">
+                    <span>HTML</span>
+                    <div class="bar"></div>
+                </li>
+
+                <li class="skillWrap">
+                    <span>CSS</span>
+                    <div class="bar"></div>
+                </li>
+
+                <li class="skillWrap">
+                    <span>JavaScript</span>
+                    <div class="bar"></div>
+                </li>
+
+                <li class="skillWrap">
+                    <span>jQuery</span>
+                    <div class="bar"></div>
+                </li>
+
+                <li class="skillWrap">
+                    <span>반응형 웹</span>
+                    <div class="bar"></div>
+                </li>
+
+                <li class="skillWrap">
+                    <span>웹 접근성</span>
+                    <div class="bar"></div>
+                </li>
+
+                <li class="skillWrap">
+                    <span>웹 표준</span>
+                    <div class="bar"></div>
+                </li>
+
+                <li class="skillWrap">
+                    <span>Adobe<br>Photoshop</span>
+                    <div class="bar"></div>
+                </li>
+
+                <li class="skillWrap">
+                    <span>Adobe<br>Illustrator</span>
+                    <div class="bar"></div>
+                </li>
             </ul>
         </section>
         <!-- //skills -->
@@ -173,19 +222,22 @@
 
     <!-- footer -->
     <footer id="footer">
-        <div class="footerTitle">
-            <h3>Contact</h3>
+        <h3>Contact</h3>
+        <section>
+            <h5>E-mail</h5>
+            <p>
+                <a href="mailto:jaelang7440@naver.com">
+                    jaelang7440@naver.com
+                </a>
+            </p>
+        </section>
+        <section>
+            <h5>kakao Talk <img src="./img/kakao_talk_logo.png" alt="카카오톡 로고"></h5>
+            <p><a href="http://qr.kakao.com/talk/rKBlU48pMirOpKBGRdXdAHhFLn0-">jjal_lang_S2</a></p>
+        </section>
+        <section>
             <p>© 2025 Park JaeRang</p>
-        </div>
-        <h5>E-mail</h5>
-        <p>
-            <a href="mailto:jaelang7440@naver.com">
-                jaelang7440@naver.com
-            </a>
-        </p>
-
-        <h5>kakao Talk Id</h5>
-        <p><a href="http://qr.kakao.com/talk/rKBlU48pMirOpKBGRdXdAHhFLn0-">jjal_lang_S2</a></p>
+        </section>
     </footer>
     <!-- //footer -->
 </body>
