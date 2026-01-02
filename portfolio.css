@@ -436,7 +436,7 @@ footer h5 img {
 /* 반응형 모바일 */
 @media (max-width: 768px) {
     h2 {
-        font-size: 2.4rem;
+        font-size: 2.2em;
     }
 
     h3 {
