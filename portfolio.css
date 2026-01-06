@@ -504,5 +504,10 @@ footer h5 img {
         margin-top: 0px;
     }
 
-
+    main #skills .skillList .skillWrap span,
+    main #skills .skillList .skillWrap .bar {
+        padding: 3px 7px;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
 }
