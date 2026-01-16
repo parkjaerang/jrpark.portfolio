@@ -210,7 +210,7 @@ main #aboutMe .aboutMeWrap .aboutMeRBox .aboutList .StudyWrap p {
 /* project */
 main #project .articleWrap {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 main #project .articleWrap article {
@@ -225,7 +225,7 @@ main #project .articleWrap article ul {
 }
 
 main #project .articleWrap article ul li {
-    max-width: 130px;
+    max-width: 250px;
     padding: 3px 10px;
     border-radius: 30px;
     background-color: #E6E7DF;
