@@ -208,9 +208,10 @@ main #aboutMe .aboutMeWrap .aboutMeRBox .aboutList .StudyWrap p {
 /* //about me */
 
 /* project */
+
 main #project .articleWrap {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 main #project .articleWrap article {
@@ -219,6 +220,7 @@ main #project .articleWrap article {
 
 main #project .articleWrap article ul {
     display: flex;
+    flex-direction: column;
     font-size: 1.6rem;
     gap: 10px;
     margin: 20px 0;
