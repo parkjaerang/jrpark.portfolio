@@ -117,5 +117,16 @@ spans.forEach((span, index) => {
     });
 });
 
+// imgBox slide
+const io = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("slide");
+      }
+    });
+  });
+
+imgbox.forEach((el) => io.observe(el));
 
 });
