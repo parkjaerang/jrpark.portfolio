@@ -240,6 +240,14 @@ main #project .articleWrap article .imgBox {
     position: relative;
     width: 100%;
     aspect-ratio: 8 / 6;
+    top: 5%;
+    opacity: 0;
+}
+
+main #project .articleWrap article .imgBox.slide {
+    opacity: 1;
+    top: 0;
+    transition: 1s;
 }
 
 main #project .articleWrap article .imgBox img {
